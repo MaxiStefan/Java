@@ -1,0 +1,14 @@
+The CarService company does the vehical inspection following a certain sequence of actions:
+vehicle visual check, vehicle exhaust check, brakes check, mechanical parts check.
+Implement a solution that verifies a vehicle using this procedure. The solution should allow different auto services to use this procedure.
+----------TEmplate
+
+
+The service is out of stocks for certain parts so it wants to receive service requests only for cars under 500kg, other cars will be declined for a while.
+Implement a module complementary to InspectionScheduleer that will be used to filter future requests
+--------Proxy( preserves functionality but under a condition)
+
+
+The service cannot inspect in real time all the cars due to a small number of mechanical engineers.
+Design a solution that would allow to schedule future inspections and process them based on FIFO logic
+-------------Command

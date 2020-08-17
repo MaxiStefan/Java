@@ -1,0 +1,12 @@
+Sa se implementeze solutia care creeaza o instanta unica de tip CosCumparaturi, pentru ca userul sa o acceseze pe aceea atunci cand 
+foloseste diferitele pagini ale siteului.
+---------Singleton
+
+Site-ul trb sa le permita clientilor diferite metode de plata(card, bitcoin, numerar). Modificati clasa CosCumparaturi prin intermediul
+interfetei IPlata pentru a oferii userelui alegerea metodei de plata la finalizarea comenzii. Solutia trb sa permita adaugara unor plati ulterioare,
+fara a afecta clasa CosCumparaturi
+---------Strategy
+
+siteul foloseste pictograme sau imagini detaliate, descrise de clasa ElementGrafic, acestea sunt asociate unor produse si unor pozitii
+Sa se implementeze o solutie ce reduce memoria ocupata insa care afiseaza aceste elemente grafice.
+--------Flyweight

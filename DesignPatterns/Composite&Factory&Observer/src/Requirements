@@ -1,0 +1,8 @@
+A client needs to implement a solution for a Auto Service. Customers are divided into three customers, Customers, LoyalClients, VIPClients.
+Implement a module to facilitate the creation of client objects within the application. ===> Factory
+
+The service wants to implements a solution that notifies all customers. Implement at least 2 messages	
+
+
+The service has autoMechanics and autoMechanics engineers. An engineer has a team of autoMechanics, but he can also have a smaller team of automotiveEngineers
+hierarchical representation of autoMechanics and engineers

@@ -1,0 +1,20 @@
+PleaseHelp hospital needs to implement a service for ER that would reduce the timeto filter the incoming patients
+ER is using a complex decisional system to decide the gravity and the action to be taken for each patients
+
+* if temperature < 40 => check other conditions else ask a general doctor for help
+* if bleeding, the patient will go to surgical unit w/o cheking for other conditions
+* if unconscious, patient will go to neurology unit
+* if no major problems are found, patient will go home
+-------------------Chain
+
+
+The hospital has a software that queries patients about their conditions using getDescription(). Unconscious patients cannot answer however but 
+the solution is already running and there are existing such patients.
+Find a solution to change those existing objects by adding a new attribute (companionPersonName) and  changing how
+getDescription() works. for these patients getDescription() will also indicate the companion's name
+-----------------Adapter
+
+
+there is a fix sequence of steps that must be taken in order for a new patient to be registered in the hotel
+implement a solution that would allow this sequence to be done in either android or web interface
+-----------------Template

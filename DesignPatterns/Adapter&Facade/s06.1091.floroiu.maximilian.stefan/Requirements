@@ -1,0 +1,7 @@
+Pentru a construi un obiect de tip CosCumparaturi, trb realizat un obiect de tip
+ sesiune, un obiect de tip user, si un obiect de tip ConexiuneBD. SA se implementeze
+ o metoda mai simpla de a parcurge acesti pasi.
+
+ 
+ Compania cumpara un plugin, cu interfata IShoppingCart, sa se implementeze o solutie care sa foloseasca obiectele de tip CosCumparaturi in noul context
+ 
